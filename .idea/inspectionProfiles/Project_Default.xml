@@ -1,0 +1,65 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyAttributeOutsideInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+          <option value="E731" />
+          <option value="E111" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N812" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="type" />
+          <option value="round" />
+          <option value="input" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="gans.GAN.vocab_size" />
+          <option value="gans.GAN.batch_size" />
+          <option value="gans.GAN.max_length" />
+          <option value="gans.GAN.g_hidden_dim" />
+          <option value="tensorflow.contrib" />
+          <option value="GANs.GANBase.discriminator" />
+          <option value="GANs.GANBase.dl_dis" />
+          <option value="GANs.GANBase.d_adv_optim" />
+          <option value="GANs.GANBase.generator" />
+          <option value="GANs.GANBase.g_adv_optim" />
+          <option value="GANs.GANBase.dl_gen" />
+          <option value="GANs.GANBase.d_pre_optim" />
+          <option value="GANs.GANBase.dl_oracle" />
+          <option value="GANs.GANBase.g_pre_optim" />
+          <option value="GANs.GANBase.oracle" />
+          <option value="tensorflow_core._api.v1.app.flags" />
+          <option value="fairseq.dataclass.configs.FairseqDataclass.__dataclass_fields__" />
+          <option value="_importlib_modulespec.ModuleType.build_gen_model" />
+          <option value="_importlib_modulespec.ModuleType.build_dis_model" />
+          <option value="_importlib_modulespec.ModuleType.build_dataset" />
+          <option value="_importlib_modulespec.ModuleType.build_dis_dataset" />
+          <option value="_importlib_modulespec.ModuleType.build_gen_dataset" />
+          <option value="_importlib_modulespec.ModuleType.build_model" />
+          <option value="torch.cuda.FloatTensor" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
